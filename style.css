@@ -13,6 +13,20 @@
     color: white;
     
 }
+
+#loginbutton{
+    float: right;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 10%;
+}
 #banner_container{
     height: 450px;
     background-image: url(recursos/banner.jpg);
