@@ -1,13 +1,23 @@
 var btn= document.getElementById("loginbutton");
+var editicon= document.getElementsByClassName('edicon'); //aunque sea un solo elemento, editicon será array, por ende, si solo uso un elemento unico, poner ()[0]; o usar por ID
+
+
 function alerta(){
-    alert("boton activo");
     if(btn.innerText=="Login"){
-    document.getElementById("loginbutton").innerHTML="Logout";}
+    document.getElementById("loginbutton").innerHTML="Logout";  //se debe recorrer el array editicon para aplicar a cada elemento
+        for(var i=0;i<editicon.length;i++){ //no funciona con for of , buscar por qué.
+            editicon[i].style.display="inline";
+        }
+    }
     else{
         document.getElementById("loginbutton").innerHTML="Login";
+        for(var i=0;i<editicon.length;i++){
+            editicon[i].style.display="none";
+        }
     }
-
+    
 }
+
 
 //con la funcion de arriba, puedo hacer que cuando se toque el boton login, 
 //el display de los botones de editar de cada seccion, 

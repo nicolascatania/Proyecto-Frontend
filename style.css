@@ -52,6 +52,23 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.editicon{
+    display: none;
+    font-size: 35px;
+    position: absolute;
+    left: 95%; /*usar breakpoints pq cuando se acorta el ancho de la pagina, el componente se sale de su contenedor y genera un scroll*/
+    top: 7%;
+}
+
+.edicon{
+    display:none;
+    width: 70px;
+    position:relative;
+    position: absolute;
+    left: 95%;
+    top: 3%;
+}
+
 
 .progress-bar{
     height: 150px;
