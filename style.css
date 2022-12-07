@@ -36,7 +36,7 @@
 
 #profilephoto{
     position: relative;
-    bottom: 150px;
+    bottom: 200px;
     border-radius: 70%;
     margin-left: 5px;
 }
@@ -44,12 +44,22 @@
 #about{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: justify;
+    font-size: 20px;
 
+}
+
+#about h1{
+    font-size: 50px;
 }
 
 .main-sections{
     margin-top: 50px;
+    font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-sections h1{
+    font-size: 50px;
 }
 
 .editicon{
